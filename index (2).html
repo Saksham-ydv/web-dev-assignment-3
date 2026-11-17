@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Yadav | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Saksham Yadav</h1>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="welcome">Hello, welcome to my portfolio</p>
+                <h2>Hi, I am <span>Saksham Yadav</span></h2>
+                <h3 class="animated-text">A Web Development Student</h3>
+                <p>
+                    I am a first-semester student learning web development.
+                    I enjoy learning new things and improving my coding skills.
+                </p>
+                <a href="#about" class="button">Know More</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="sakshampics.jpeg" alt="Photo of Saksham Yadav" class="profile-photo">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am currently in my first semester and learning the basics
+                of web development. I have started working with HTML and CSS
+                to understand how websites are made.
+            </p>
+            <p>
+                I like practising what I learn in class and trying out new
+                things while writing code. My aim is to improve my skills
+                and make more websites as I learn.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p>Basic webpage structure, headings, paragraphs and HTML elements.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p><strong>Level:</strong> Beginner</p>
+                    <p>Colours, fonts, spacing and styling web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Git and GitHub</h3>
+                    <p><strong>Level:</strong> Learning</p>
+                    <p>Basic version control and managing project files.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Deployment</h3>
+                    <p><strong>Level:</strong> Learning</p>
+                    <p>Publishing websites online using hosting services.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>1. My First HTML Website</h3>
+                    <p>
+                        This was my first website, created using HTML only.
+                        I learned the basics of webpage structure, headings,
+                        paragraphs and other HTML elements.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>2. Personal Portfolio Website</h3>
+                    <p>
+                        This is my second portfolio website, created using
+                        HTML and CSS. It includes information about me,
+                        my skills, my projects and a contact form.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>3. Responsive Portfolio</h3>
+                    <p>
+                        This is the improved version of my portfolio.
+                        It uses Flexbox, CSS Grid and media queries to
+                        adjust the layout for different screen sizes.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p class="contact-intro">
+                You can use the form below to practise entering contact details.
+            </p>
+
+            <form class="contact-form" action="#" method="get">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject"
+                       placeholder="Enter the subject" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5"
+                          placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+
+</body>
+</html>
